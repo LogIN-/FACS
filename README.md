@@ -1,5 +1,5 @@
 ## Introduction
-`FACS` is a FACS machine output analyzer. Facilitates conversion of percentages or MFI to absolute cell numbers. 
+`FACS` is a FACS machine output analyzer. Facilitates conversion of percentages to absolute cell numbers. 
 Flow cytometry absolute number calculator.
 
 ## Get started
@@ -54,7 +54,8 @@ So you installed Python and two excel extensions, prepared FACS data and `Sectio
 now you are ready to run our application like this from command-line/terminal:
 `python main.py`
 Calculations are done in a metter of second. New files will be created in ./data directory with our results.
-Our demo result is `P8R.xls - _October_19_2014_05_38PM.xls` . You will see corresponding result file for every Column task you configured in `Sections_input.xls`
+Our demo result is `P8R.xls - _October_19_2014_05_38PM.xls`. 
+You will see corresponding result file for every Column task you configured in `Sections_input.xls`
 
 ## Understanding the output
 
@@ -65,9 +66,12 @@ Our demo result is `P8R.xls - _October_19_2014_05_38PM.xls` . You will see corre
  - In the following columns you have the same properties analyzed for cell subsets
 
 Notice:
+
 Default analyzed depth is no° 4: 
+
 Forward and side scatter population, duplicates, live dead exclusion, cell population of interest
 If you want to change this number is fairly simple:
+
 EDIT line: #55 in our main.py file and set it to desired level
 
 ## Support and Bugs
