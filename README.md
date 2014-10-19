@@ -8,11 +8,13 @@ Before using this program you need to install following:
  1. Install Python for your operating system (windows/linux) [Link here](https://www.python.org/downloads/)
  2. After installing Python you need to install two Python packages for reading and writing Excel files 
  `xlrd` and `xlwt`
+
 Linux:
 ```bash
 sudo apt-get install python-xlrd
 sudo apt-get install python-xlwt
 ```
+
 Windows:
 ```
 1. Set up a directory called C:\installers (or some other name of your
